@@ -24,25 +24,6 @@ void Time::printStandard() {
 		<< setw(2) << minute << ":" << setw(2) << second << (hour < 12 ? " AM" : " PM"); 
 }
 
-/*Time scantime() {
-
-	Time t;
-	
-
-	auto h = 0;
-	auto m = 0;
-	auto s = 0;
-	cout << "\n\n\n\t\tplase enter time : ";
-	cin >> h;
-	cout << " : ";
-	cin >> m;
-	cout << " : ";
-	cin >> s;
-
-	
-	 t.setTime(h, m, s);
-
-}*/
 
 int main() {
 	Time t;
